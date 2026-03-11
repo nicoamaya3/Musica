@@ -21,7 +21,6 @@ export const Info = () => {
                         <button className="btn btn-dark w-25">Escuchar</button>
                     </div>
                     <div className="col-6">
-
                     </div>
                 </div>
             </div>

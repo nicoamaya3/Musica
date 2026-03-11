@@ -6,9 +6,14 @@ export const Home = () => {
   return (
     <>
     
-      <div className="p-5" style={{ backgroundImage: "url(./dj.jpg)" }}>
+      <div className="p-5 d-flex flex-column" style={{ backgroundImage: "url(./dj.jpg)" }}>
         <Info />
-        <Recuadros />
+        <h1 className="text-center text-white fw-bold p-4">Géneros</h1>
+        <div className="d-flex justify-content-center">
+        <Recuadros nombre ="Reggae" imagen = "../public/reggae.jpg" />
+        <Recuadros nombre ="Dancehall" imagen = "../public/dancehall.jpg" />
+        <Recuadros nombre ="Hiphop" imagen = "../public/hiphop.jpg" />
+        </div>
       </div>
 
     </>
