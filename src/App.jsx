@@ -10,20 +10,26 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 export const App = () => {
   return (
     <>
-    
-    <Header/>
-    
 
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/Reggae" element={<Reggae/>} />
-      <Route path="/Dancehall" element={<Dancehall/>} />
-      <Route path="/HipHop" element={<Hiphop/>} />
-    </Routes>
-    </BrowserRouter>
-    
-    
+
+
+      <BrowserRouter>
+
+        <Header/>
+
+        <Routes>
+
+          <Route path="/" element={<Home/>} />
+          <Route path="/Reggae" element={<Reggae/>} />
+          <Route path="/Dancehall" element={<Dancehall/>} />
+          <Route path="/HipHop" element={<Hiphop/>} />
+          
+        </Routes>
+
+
+      </BrowserRouter>
+
+
     </>
   )
 }
